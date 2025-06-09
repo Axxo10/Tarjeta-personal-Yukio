@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: "Raleway", sans-serif;
+    background-color: rgb(12, 10, 46);
+    color: aliceblue;
+    display: flex;
+    align-items: center;
+    height: 100vh;
+    padding: 1rem;
+}
+.card{
+    display: flex;
+    flex-direction: column;
+    background-color: slategray;
+}
+.header{
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+}
+.main{
+    display: flex;
+    align-items: center;
+    background-color: rgb(18, 18, 46);
+}
+.footer{
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(35, 45, 63);
+}
